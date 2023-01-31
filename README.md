@@ -7,7 +7,7 @@ Ever wondered what your favorite music says about you? Melodic Soul analyzes you
   <img src="https://user-images.githubusercontent.com/25855913/215731379-6fa5d344-1852-43f9-8dfe-7ff0197d9e21.png" width="400" height="400">
 </p>
 
-### Spotify & Sentiment Data For Left Image
+### Spotify & Sentiment Analysis For Left Image
 
 #### Top Tracks
 - Something in the Orange by Zach Bryan;	 Sentiment: Extremely Negative
