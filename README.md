@@ -1,5 +1,5 @@
 # melodic-soul
-Ever wondered what your favorite music says about you? Melodic Soul analyzes your Spotify music tastes and behaviors using VADER sentiment analysis over the last 6 months. The program then feeds that data into the DALL-E text-to-image AI algo to generate an image of your personalized Melodic Soul. What does your Melodic Soul look like? Give it a try today!
+Ever wondered what your favorite music says about you? Melodic Soul analyzes your Spotify music tastes and sentiment using VADER analysis over the last 6 months. The program then feeds that data into the DALL-E text-to-image AI algo to generate an image of your personalized Melodic Soul. What does your Melodic Soul look like? Give it a try today!
 
 ## Examples
 <p float="left">
