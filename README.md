@@ -1,7 +1,7 @@
 # melodic-soul
 Ever wondered what your favorite music says about you? Melodic Soul analyzes your Spotify music tastes and behaviors using VADER sentiment analysis over the last 6 months. The program then feeds that data into the DALL-E text-to-image AI algo to generate an image of your personalized Melodic Soul. What does your Melodic Soul look like? Give it a try today!
 
-## Example Melodic Souls
+## Examples
 <p float="left">
   <img src="https://user-images.githubusercontent.com/25855913/215732211-30a7cbeb-14a4-4777-83f0-91b68e93061d.png" width="400" height="400">
   <img src="https://user-images.githubusercontent.com/25855913/215731379-6fa5d344-1852-43f9-8dfe-7ff0197d9e21.png" width="400" height="400">
@@ -39,4 +39,13 @@ Ever wondered what your favorite music says about you? Melodic Soul analyzes you
 - Infest
 - Stranger Things, Vol. 1 (A Netflix Original Series Soundtrack)
 - hail mary
+
+## Five-Step Quickstart
+1. Sign up for free [musixmatch developer account](https://developer.musixmatch.com/plans) and save API key to "musixmatch_secret.txt" file.
+2. Sign up for free [openai developer account](https://openai.com/api/) and save API key to "openai_secret.txt" file.
+3. Sign up for free [Spotify developer account](https://developer.spotify.com/). Create a new app. Click "Edit Settings". Set the "Redirect URI" to "http://localhost:8888/callback". Scroll down and click "Save". Navigate back to the app dashboard. You should see the "Client ID" and "Client Secret" on this page. Save the "Client ID" as the first line on the "spotify_secret.txt file" and the "Client Secret" as the second line.
+4. Scan the ".py" files and install any missing packages.
+5. Run "main.py" and answer the questions. Within a minute, you'll receive a summary of Spotify listening stats and sentiment. You'll also receive a link to your Melodic Soul. Make sure to download and save it as the image will expire in an hour. If you don't like your image then run the program again or start listening to some new music! :)
+
+
 
