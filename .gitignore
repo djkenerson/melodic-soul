@@ -1,0 +1,8 @@
+.DS_Store
+.cache
+.idea/
+musixmatch_secret_hidden.txt
+openai_secret_hidden.txt
+spotify_secret_hidden.txt
+__pycache__
+
