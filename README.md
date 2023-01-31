@@ -44,8 +44,16 @@ Ever wondered what your favorite music says about you? Melodic Soul analyzes you
 1. Sign up for free [musixmatch developer account](https://developer.musixmatch.com/plans) and save API key to "musixmatch_secret.txt" file.
 2. Sign up for free [openai developer account](https://openai.com/api/) and save API key to "openai_secret.txt" file.
 3. Sign up for free [Spotify developer account](https://developer.spotify.com/). Create a new app. Click "Edit Settings". Set the "Redirect URI" to "http://localhost:8888/callback". Scroll down and click "Save". Navigate back to the app dashboard. You should see the "Client ID" and "Client Secret" on this page. Save the "Client ID" as the first line on the "spotify_secret.txt file" and the "Client Secret" as the second line.
-4. Scan the ".py" files and pip install any missing packages.
-5. Run "main.py" and answer the questions. Within a minute, you'll receive a summary of your Spotify listening stats and sentiment. You'll also receive a link to an image of your Melodic Soul. Make sure to download and save it as the image will expire in an hour. If you don't like your image then run the program again or start listening to some new music! :)
+4. Scan the list of packages below and install any missing ones.
+5. Download the program files and run "main.py". Within a minute, you'll receive a summary of your Spotify listening stats and sentiment. You'll also receive a link to an image of your Melodic Soul. Make sure to download and save it as the image will expire in an hour. If you don't like your image then run the program again or start listening to some new music! :)
 
-
+### Required Packages
+```
+pip install spotipy
+pip install statistics
+pip install musixmatch
+pip install vaderSentiment
+pip install openai
+pip install uuid
+```
 
