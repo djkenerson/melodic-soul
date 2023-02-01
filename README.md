@@ -47,11 +47,12 @@ Ever wondered what your favorite music says about you? Melodic Soul analyzes you
 4. Scan the list of packages below and install any missing ones.
 5. Run "main.py". Within a minute, you'll receive a summary of your Spotify listening stats and sentiment. You'll also receive a link to an image of your Melodic Soul. Make sure to download and save it since the hosted image will expire within one hour. If you don't like your image then run the program again or start listening to some new music! :)
 
-### Required Packages
+### Package Requirements
 ```
 pip install spotipy
 pip install statistics
 pip install musixmatch
+pip install pymusixmatch
 pip install vaderSentiment
 pip install openai
 pip install uuid
